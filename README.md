@@ -5,6 +5,10 @@ CodeForge Rush is a mobile-first puzzle game for ages 12-22 where players learn 
 For exact Unity hierarchy and Inspector wiring, use:
 - `LAUNCH_CHECKLIST.md`
 
+Legal/IP package for publishing under your name:
+- `LICENSE`
+- `Legal/README_LEGAL.md`
+
 ## Core Idea
 Players build tiny programs using drag-and-drop code blocks to solve levels. Each solved level teaches one coding concept while preserving a fast game loop.
 
@@ -40,6 +44,11 @@ Levels are generated from deterministic seeds (`levelNumber`) plus stage bands. 
 3. Add an empty GameObject called `Bootstrap`.
 4. Attach `GameManager` script.
 5. Press Play.
+
+### First-time repository bootstrap
+1. Open the repository once in Unity.
+2. Let Unity generate `.meta` files and additional `ProjectSettings` assets.
+3. Commit generated files so GUID references are stable across machines.
 
 ## Export Targets
 - Android: Player Settings -> Android -> IL2CPP/ARM64
@@ -243,3 +252,23 @@ Usage:
 3. Set platform game IDs + placement ID.
 4. Assign `RewardedAdsController.serviceBehaviour` to `UnityAdsRewardedService`.
 
+
+## One-Click Scene Auto Setup
+
+I added an editor tool that creates and wires the full `Main` scene automatically.
+
+File:
+- `Assets/Editor/AutoSetupScene.cs`
+
+Run it in Unity:
+1. Open project in Unity.
+2. Menu: `CodeForge -> Auto Setup Main Scene`.
+3. Wait for completion log: `CodeForge main scene auto-setup completed.`
+
+This creates:
+- Bootstrap + GameManager
+- Canvas/UI/HUD/Grid/Program Builder/Palette/Buttons
+- Monetization panel + Ad root
+- Tutorial panel
+- Audio root
+- `Assets/Scenes/Main.unity` and adds it to Build Settings
