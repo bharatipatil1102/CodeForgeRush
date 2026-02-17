@@ -272,3 +272,13 @@ This creates:
 - Tutorial panel
 - Audio root
 - `Assets/Scenes/Main.unity` and adds it to Build Settings
+
+## Release and Store Docs
+
+Before Play Store/App Store submission, complete:
+- `RELEASE/STORE_SUBMISSION_MASTER_CHECKLIST.md`
+- `RELEASE/PLAYSTORE_DATA_SAFETY_TEMPLATE.md`
+- `RELEASE/APPSTORE_PRIVACY_TEMPLATE.md`
+- `RELEASE/STORE_LISTING_TEMPLATE.md`
+- `RELEASE/PRELAUNCH_QA_MATRIX.md`
+- `RELEASE/RELEASE_RUNBOOK.md`
