@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "levelsPerStage": 100,
+  "bossEveryLevels": 100,
+  "tutorialLevelsCount": 20,
+
+  "baseCoinReward": 10,
+  "baseXpReward": 15,
+  "perfectBonusCoins": 6,
+
+  "rankBaseXp": 80,
+  "rankXpPerRank": 15,
+
+  "dailyBaseRewardCoins": 20,
+  "dailyStreakBonusPerDay": 2,
+  "hintCostCoins": 30,
+  "reviveCostCoins": 20,
+  "rewardedHintTokens": 1,
+  "bossClearBonusCoins": 75,
+
+  "missionATarget": 5,
+  "missionARewardCoins": 40,
+  "missionBTarget": 2,
+  "missionBRewardCoins": 50,
+
+  "seasonBaseXp": 12,
+  "seasonPerfectBonusXp": 6,
+  "seasonBossBonusXp": 15,
+  "seasonTierBaseXp": 60,
+  "seasonTierXpPerTier": 12,
+  "seasonTierCoinBase": 30,
+  "seasonTierCoinPerTier": 2,
+
+  "normalGridBase": 5,
+  "bossGridBase": 8,
+  "normalGridStageDivisor": 4,
+  "bossGridStageDivisor": 6,
+  "maxGridSize": 12,
+  "maxInstructionsCap": 40,
+  "parMovesCap": 36,
+  "hazardCap": 12,
+  "enemyCap": 5
+}
