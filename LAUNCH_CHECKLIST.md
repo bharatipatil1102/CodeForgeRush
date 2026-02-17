@@ -156,3 +156,17 @@ Create GameObject: `AudioRoot`
 - Replace `MockRewardedAdService` with real SDK implementation of `IRewardedAdService`.
 - Add privacy policy URL and age-appropriate content labels.
 - Add crash analytics and remote config.
+- Disable ad `testMode` for production builds.
+- Verify Play Store Data safety and App Store Privacy forms against actual SDKs.
+- Verify ATT behavior on iOS if tracking/IDFA is used.
+- Prepare store listing assets (icon, screenshots, feature graphic, descriptions).
+- Validate support email/URL and legal URLs are live and reachable.
+
+## 12) Release Documents
+- Complete:
+  - `RELEASE/STORE_SUBMISSION_MASTER_CHECKLIST.md`
+  - `RELEASE/PLAYSTORE_DATA_SAFETY_TEMPLATE.md`
+  - `RELEASE/APPSTORE_PRIVACY_TEMPLATE.md`
+  - `RELEASE/STORE_LISTING_TEMPLATE.md`
+  - `RELEASE/PRELAUNCH_QA_MATRIX.md`
+  - `RELEASE/RELEASE_RUNBOOK.md`
